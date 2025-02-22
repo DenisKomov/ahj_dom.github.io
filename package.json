@@ -1,10 +1,5 @@
 {
-  "name": "@deniskomov/ahj_dom.github.io",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "on-air": "live-server dist",
@@ -13,7 +8,6 @@
     "test": "jest --passWithNoTests",
     "lint": "eslint ."
   },
- "devDependencies": {
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
@@ -31,13 +25,4 @@
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
   },
-    "dependencies": {
-      "webpack": "^5.41.0",
-      "core-js": "^3.18.3",
-      "mini-css-extract-plugin": "^1.6.2",
-      "html-webpack-plugin": "^5.3.2",
-      "optimize-css-assets-webpack-plugin": "^5.0.4",
-      "terser-webpack-plugin": "^5.0.3",
-      "webpack-merge": "^5.7.3"
-    }
 }
