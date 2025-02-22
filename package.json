@@ -4,11 +4,7 @@
   "description": "AHJ-2",
   "main": "index.js",
   "scripts": {
-    "on-air": "live-server dist",
-    "start": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js",
     "test": "jest --passWithNoTests",
-    "lint": "eslint ."
   },
   "repository": {
     "type": "git"
